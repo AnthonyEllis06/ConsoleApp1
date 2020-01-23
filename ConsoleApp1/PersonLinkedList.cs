@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class PersonLinkedList
     {
-        PersonNode first;
+        private PersonNode first { get; set; }
         public PersonLinkedList()
         {
             first = new PersonNode();
